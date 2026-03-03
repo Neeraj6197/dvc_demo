@@ -6,8 +6,8 @@ os.makedirs("data", exist_ok=True)
 
 #create a dataframe
 sample_data = {
-    "Name": ["Adam", "Bob", "Charlie"],
-    "Car": ["Audi", "BMW", "Mercedes"]
+    "Name": ["Adam", "Bob", "Charlie", "David"],
+    "Car": ["Audi", "BMW", "Mercedes", "Dodge"]
 }
 
 df = pd.DataFrame(sample_data)
